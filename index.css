@@ -1,0 +1,68 @@
+body{
+  background-image: linear-gradient(to left,  purple , #fdfd96);
+  background-size: 125% 100%;
+  font-family: Georgia;
+}
+.topnav {
+  background-color: #FF475C;
+  overflow: hidden;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5%;
+}
+.topnav a {
+  color: black;
+  padding: 100px 50px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bar {
+  width: 25px;
+  height: 25px;
+}
+ .container {
+    display: flex;
+    overflow: hidden; 
+  }
+  .container img {
+    position: absolute;
+    right: 0;
+    top: 5%; 
+    width:50%; 
+    height:95%;
+  }
+  .left-half{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  }
+
+button {
+  background-color: #FF475C; 
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   font-size: 13px;
+}
+p {
+  display: inline-block;
+  white-space: pre-line;
+  margin: 1em 0;
+  font-size: 16px;
+ max-width: 800px;
+         margin: 20px auto;
+        padding: 0 20px;
+        text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+        .topnav {
+            padding: 10px 0;
+        }
+    }

@@ -1,0 +1,72 @@
+body{
+  background-image: linear-gradient(to left,  violet , #fdfd96);
+  background-size: 125% 100%;
+  font-family: Georgia;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  
+}
+.collage {
+  display: flex;
+  padding: 100px;
+  top: 32%;
+  right: 25%;
+}
+
+.vertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical img {
+  width: 80%;
+  max-width: 500px; /* Adjust as needed */
+  padding: 5px;
+  
+}
+
+.horizontal {
+  flex: 3;
+  margin-left: 100 px;
+}
+
+.horizontal img {
+  width: 120%;
+  max-width: 355px; /* Adjust as needed */
+}
+
+ .box {
+    width: 450px;
+    height: 220px;
+    background-color: #FF475C;
+    position: relative;
+    top: 35%;
+    right: 18%;
+    
+  }
+
+  .box-content {
+    position: absolute;
+/*    transform: translate(-0%, -50%);*/
+    /*top: 32%;
+    right: 25%;*/
+     color: #333;
+  }
+
+  .box-content h2 {
+    margin: 3px;
+    padding: 20px;
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .box-content p {
+    margin: 5px 15px 0;
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+  }
