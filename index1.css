@@ -30,9 +30,9 @@ body{
   .container img {
     position: absolute;
     right: 0;
-    top: 5%; 
+    top: 8%; 
     width:50%; 
-    height:95%;
+    height:92%;
   }
   .left-half{
   position: absolute;
@@ -66,10 +66,10 @@ p {
             padding: 10px 0;
         }
     p{
-      padding:0 20px;
+      padding: 10px 0;
     }
   button{
-  padding:12px 60px
+  padding: 10px 0;
     }
  .container {
     display: flex;
@@ -81,10 +81,10 @@ p {
             padding: 10px 0;
         }
     p{
-      padding:0 20px;
+     padding: 10px 0;
     }
   button{
-  padding:12px 60px
+ 
     }
  .container {
     display: flex;
